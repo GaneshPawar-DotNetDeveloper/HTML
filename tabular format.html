@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+</head>
+<body>
+    <h1>creating student table    </h1>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>rollnumber</th>
+                <th>name</th>
+                <th>city</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ganesh</td>
+                <td>solapur</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>mahesh</td>
+                <td>satara</td>
+            </tr>
+            <tr><td>3</td><td>suresh</td><td>solapur</td></tr>
+            <tr><td>4</td><td>suraj</td><td>solapur</td></tr>
+            <tr><td>5</td><td>raj</td><td>solapur</td></tr>
+            <tr><td>6</td><td>najim</td><td>jalgao</td></tr>
+            <tr><td>7</td><td>sachin</td><td>jalgao</td></tr>
+        </tbody>
+    </table>
+
+    <h1> Merge table rows   </h1>
+      for that use rowspan Attribute:
+    <table border="1">
+        <thead>
+            <tr>
+                <th>rollnumber</th>
+                <th>name</th>
+                <th>city</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" align="center">1</td>
+                <!--<td>ganesh</td>-->
+                <td>solapur</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>mahesh</td>
+                <td>satara</td>
+            </tr>
+            <tr><td>3</td><td>suresh</td><td rowspan="3">solapur</td></tr>
+            <tr><td>4</td><td>suraj</td><!--<td>solapur</td>--></tr>
+            <tr><td>5</td><td>raj</td><!--<td>solapur</td>--></tr>
+            <tr><td>6</td><td>najim</td><td rowspan="2">jalgao</td></tr>
+            <tr><td>7</td><td>sachin</td><!--<td>jalgao</td>--></tr>
+        </tbody>
+    </table>
+    <hr>
+    <div>
+        <h3> break fast menu   </h3>
+        <dl>
+            <dt> Drink </dt>
+            <dd>coffee</dd>
+            <dd>chai</dd>
+            <dd>milk</dd>
+            <dd>water</dd>
+            <dt>food</dt>
+            <dd>vada pav</dd>
+            <dd>samosa</dd>
+            <dd>sprout</dd>
+            <dd>dosa</dd>
+            <dd>paratha</dd>
+        
+        </dl>
+
+
+    </div>
+    <span>thank you</span>
+    <br>
+    
+    <label>come again !!!!!!</label>
+
+</body>
+</html>
